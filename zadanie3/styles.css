@@ -1,0 +1,429 @@
+#cazz1nych-head {
+    display: block;
+    height: 100px;
+    background-color: #BD0601;
+}
+
+#logo {
+    height: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 100px;
+    text-shadow: 3px 5px 6px;
+}
+
+#cazz1nych-ikonki {
+    display: block;
+    position: relative;
+    top: -100px;
+    height: 45px;
+    width: 75%;
+    float: right;
+    background-color: #6B1411;
+}
+#menu {
+    float: right;
+    position: absolute;
+    right: 10px;
+    color: white;
+}
+button[name="run"] {
+    text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 10px 40px;
+  margin: 3px 75px;
+  border-radius: 42px;
+    border-width: medium;
+    border-color: black;
+  letter-spacing: 1px;
+  background: white;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  float: right; 
+}
+#user {
+    float: right;
+    position: absolute;
+    right: 240px;
+    color: white;
+}
+#euro {
+    float: right;
+    position: absolute;
+    right: 350px;
+    color: white;
+}
+#cup {
+    float: right;
+    position: absolute;
+    right: 400px;
+    color: white;
+    margin: -2px;
+}
+#mes {
+    float: right;
+    position: absolute;
+    right: 465px;
+    color: white;
+    margin: -3px;
+}
+#friends {
+    float: right;
+    position: absolute;
+    right: 520px;
+    color: white;
+    margin: -2px;
+}
+
+
+#cazz1nych-rooms {
+    display: block;
+    position: relative;
+    top: -93px;
+    height: 45px;
+    width: 69%;
+    right: 6%;
+    float: right;
+    background-color: #EE726D;
+}
+
+#game {
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+    left: 20px;
+}
+#tour {
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+    left: 200px;
+}
+#lot {
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+    left: 420px;
+}
+#bonus {
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+    left: 600px;
+}
+#lead {
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+    left: 780px;
+}
+
+#cazz1nych-functions {
+    display: block;
+    height: 593px;
+    width: 320px;
+    background-color: black;
+}
+
+#cazz1nych-picture {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1069px;
+    top: 100px;
+    
+}
+
+#cazz1nych-list {
+    overflow:auto;
+    display: block;
+    height: 593px;
+    width: 52%;
+    background-color: grey;
+    position: relative;
+    left:320px;
+    right: 400px;
+    top: -593px;
+}
+
+#post1{
+    display: block;
+    position: absolute;
+    width: 100%; 
+    height: 35%;
+    background: white;
+    top: 20px;
+    outline: 2px solid #000;
+}
+#post2{
+    display: block;
+    position: absolute;
+    width: 100%; 
+    height: 35%;
+    background: white;
+    top: 250px;
+    outline: 2px solid #000;
+}
+#post3{
+    display: block;
+    position: absolute;
+    width: 100%; 
+    height: 35%;
+    background: white;
+    top: 480px;
+    outline: 2px solid #000;
+}
+#post4{
+    display: block;
+    position: absolute;
+    width: 100%; 
+    height: 35%;
+    background: white;
+    top: 710px;
+    outline: 2px solid #000;
+}
+#post5{
+    display: block;
+    position: absolute;
+    width: 100%; 
+    height: 35%;
+    background: white;
+    top: 940px;
+    outline: 2px solid #000;
+}
+#post6{
+    display: block;
+    position: absolute;
+    width: 100%; 
+    height: 35%;
+    background: white;
+    top: 1170px;
+    outline: 2px solid #000;
+}
+
+#height {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 27%;
+}
+#midle {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 47%;
+    outline: 2px solid #000;
+}
+
+#niz {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 30%;
+}
+
+#cazz1nych-footer {
+    display: block;
+    position: relative;
+    height: 100px;
+    background-color: red;
+    top: -593px;
+}
+
+#foot {
+    display: block;
+    height: 80px;
+    width: auto;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 100px;
+    text-shadow: 3px 5px 6px;
+}
+#footer {
+    display: block;
+    height: 80px;
+    width: auto;
+    float: left;
+    font-size: 20px;
+    text-align: left;
+    line-height: 100px;
+}
+
+
+.d {background: black;}
+.d:after {clear:both; display:block}
+.d form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+}
+.d input {
+  width: 200px;
+  height: 50px;
+  padding-left: 15px;
+  border-radius: 42px;
+  margin: 30px 0px;
+  background: white;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.d input:focus {
+  width: 240px;
+}
+.d button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
+
+#a{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+    width: 45%;
+  padding: 17px 56px;
+  margin: 30px 27px;
+  border-radius: 42px;
+  letter-spacing: 1px;
+  background: white;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  float: right;   
+}
+
+#b{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+    width: 45%;
+  padding: 17px 56px;
+  margin: 30px 27px;
+  border-radius: 42px;
+  letter-spacing: 1px;
+  background: white;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  float: right;   
+}
+
+#c{
+    position: relative;
+     display: inline-block;
+  color: white;
+    width: auto;
+  padding: 17px 56px;
+  margin: 30px 27px;
+  border-radius: 42px;
+  letter-spacing: 1px;
+  background: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+    left: 35%;
+    top: 230%;
+}
+#nick {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: -20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#time {
+    display: inline-block;
+    position: relative;
+    left: -95px;
+    font-size: 12px;
+    top: -5px;
+    color: gray;
+}
+
+.fa-user-circle {
+    padding: 3px 5px;
+}
+
+.fa-heart {
+    padding: 3px 5px;
+}
+.fa-angle-down {
+    float: right;
+    padding: 5px;
+}
+.fa-pencil {
+    float: right;
+    padding: 3px;
+}
+.fa-trash {
+    float: right;
+    padding: 3px 20px;
+}
+.fa-comment {
+    padding: 3px 15px;
+}
+.fa-share {
+    padding: 3px 10px;
+}
+.fa-hashtag {
+    padding: 3px 20px;
+}
+
+#text {
+    resize: none;
+    border: none;
+    font-size: 20px;
+}
+#likes {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    top: -7px;
+}
+#comments {
+     display: inline-block;
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    top: -7px;
+}
+#shares {
+     display: inline-block;
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    top: -7px;
+}
+#hashtags {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    top: -10px;
+    outline: 5px solid #000;
+}
+
+
+html, body {
+    padding:0;
+    margin:0;
+    overflow: hidden;
+}
